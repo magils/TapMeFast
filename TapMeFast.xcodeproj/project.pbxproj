@@ -1,0 +1,543 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		6922599A1ECBD7950083852A /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 692259991ECBD7950083852A /* AppDelegate.swift */; };
+		6922599C1ECBD7950083852A /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6922599B1ECBD7950083852A /* ViewController.swift */; };
+		6922599F1ECBD7950083852A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6922599D1ECBD7950083852A /* Main.storyboard */; };
+		692259A11ECBD7950083852A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 692259A01ECBD7950083852A /* Assets.xcassets */; };
+		692259A41ECBD7950083852A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 692259A21ECBD7950083852A /* LaunchScreen.storyboard */; };
+		692259AF1ECBD7950083852A /* TapMeFastTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 692259AE1ECBD7950083852A /* TapMeFastTests.swift */; };
+		692259BA1ECBD7960083852A /* TapMeFastUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 692259B91ECBD7960083852A /* TapMeFastUITests.swift */; };
+		692259C91ECBD87E0083852A /* ObelixProB.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 692259C81ECBD87E0083852A /* ObelixProB.ttf */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		692259AB1ECBD7950083852A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 6922598E1ECBD7950083852A /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 692259951ECBD7950083852A;
+			remoteInfo = TapMeFast;
+		};
+		692259B61ECBD7960083852A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 6922598E1ECBD7950083852A /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 692259951ECBD7950083852A;
+			remoteInfo = TapMeFast;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		692259961ECBD7950083852A /* TapMeFast.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TapMeFast.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		692259991ECBD7950083852A /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		6922599B1ECBD7950083852A /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		6922599E1ECBD7950083852A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		692259A01ECBD7950083852A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		692259A31ECBD7950083852A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		692259A51ECBD7950083852A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		692259AA1ECBD7950083852A /* TapMeFastTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TapMeFastTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		692259AE1ECBD7950083852A /* TapMeFastTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TapMeFastTests.swift; sourceTree = "<group>"; };
+		692259B01ECBD7950083852A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		692259B51ECBD7960083852A /* TapMeFastUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TapMeFastUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		692259B91ECBD7960083852A /* TapMeFastUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TapMeFastUITests.swift; sourceTree = "<group>"; };
+		692259BB1ECBD7960083852A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		692259C81ECBD87E0083852A /* ObelixProB.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = ObelixProB.ttf; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		692259931ECBD7950083852A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		692259A71ECBD7950083852A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		692259B21ECBD7960083852A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		6922598D1ECBD7950083852A = {
+			isa = PBXGroup;
+			children = (
+				692259981ECBD7950083852A /* TapMeFast */,
+				692259AD1ECBD7950083852A /* TapMeFastTests */,
+				692259B81ECBD7960083852A /* TapMeFastUITests */,
+				692259971ECBD7950083852A /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		692259971ECBD7950083852A /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				692259961ECBD7950083852A /* TapMeFast.app */,
+				692259AA1ECBD7950083852A /* TapMeFastTests.xctest */,
+				692259B51ECBD7960083852A /* TapMeFastUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		692259981ECBD7950083852A /* TapMeFast */ = {
+			isa = PBXGroup;
+			children = (
+				692259991ECBD7950083852A /* AppDelegate.swift */,
+				6922599B1ECBD7950083852A /* ViewController.swift */,
+				6922599D1ECBD7950083852A /* Main.storyboard */,
+				692259A01ECBD7950083852A /* Assets.xcassets */,
+				692259A21ECBD7950083852A /* LaunchScreen.storyboard */,
+				692259C81ECBD87E0083852A /* ObelixProB.ttf */,
+				692259A51ECBD7950083852A /* Info.plist */,
+			);
+			path = TapMeFast;
+			sourceTree = "<group>";
+		};
+		692259AD1ECBD7950083852A /* TapMeFastTests */ = {
+			isa = PBXGroup;
+			children = (
+				692259AE1ECBD7950083852A /* TapMeFastTests.swift */,
+				692259B01ECBD7950083852A /* Info.plist */,
+			);
+			path = TapMeFastTests;
+			sourceTree = "<group>";
+		};
+		692259B81ECBD7960083852A /* TapMeFastUITests */ = {
+			isa = PBXGroup;
+			children = (
+				692259B91ECBD7960083852A /* TapMeFastUITests.swift */,
+				692259BB1ECBD7960083852A /* Info.plist */,
+			);
+			path = TapMeFastUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		692259951ECBD7950083852A /* TapMeFast */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 692259BE1ECBD7960083852A /* Build configuration list for PBXNativeTarget "TapMeFast" */;
+			buildPhases = (
+				692259921ECBD7950083852A /* Sources */,
+				692259931ECBD7950083852A /* Frameworks */,
+				692259941ECBD7950083852A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = TapMeFast;
+			productName = TapMeFast;
+			productReference = 692259961ECBD7950083852A /* TapMeFast.app */;
+			productType = "com.apple.product-type.application";
+		};
+		692259A91ECBD7950083852A /* TapMeFastTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 692259C11ECBD7960083852A /* Build configuration list for PBXNativeTarget "TapMeFastTests" */;
+			buildPhases = (
+				692259A61ECBD7950083852A /* Sources */,
+				692259A71ECBD7950083852A /* Frameworks */,
+				692259A81ECBD7950083852A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				692259AC1ECBD7950083852A /* PBXTargetDependency */,
+			);
+			name = TapMeFastTests;
+			productName = TapMeFastTests;
+			productReference = 692259AA1ECBD7950083852A /* TapMeFastTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		692259B41ECBD7960083852A /* TapMeFastUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 692259C41ECBD7960083852A /* Build configuration list for PBXNativeTarget "TapMeFastUITests" */;
+			buildPhases = (
+				692259B11ECBD7960083852A /* Sources */,
+				692259B21ECBD7960083852A /* Frameworks */,
+				692259B31ECBD7960083852A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				692259B71ECBD7960083852A /* PBXTargetDependency */,
+			);
+			name = TapMeFastUITests;
+			productName = TapMeFastUITests;
+			productReference = 692259B51ECBD7960083852A /* TapMeFastUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		6922598E1ECBD7950083852A /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0830;
+				LastUpgradeCheck = 0830;
+				ORGANIZATIONNAME = "Moises Gil";
+				TargetAttributes = {
+					692259951ECBD7950083852A = {
+						CreatedOnToolsVersion = 8.3.2;
+						DevelopmentTeam = 7X9SFG4H67;
+						ProvisioningStyle = Automatic;
+					};
+					692259A91ECBD7950083852A = {
+						CreatedOnToolsVersion = 8.3.2;
+						DevelopmentTeam = 7X9SFG4H67;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 692259951ECBD7950083852A;
+					};
+					692259B41ECBD7960083852A = {
+						CreatedOnToolsVersion = 8.3.2;
+						DevelopmentTeam = 7X9SFG4H67;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 692259951ECBD7950083852A;
+					};
+				};
+			};
+			buildConfigurationList = 692259911ECBD7950083852A /* Build configuration list for PBXProject "TapMeFast" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 6922598D1ECBD7950083852A;
+			productRefGroup = 692259971ECBD7950083852A /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				692259951ECBD7950083852A /* TapMeFast */,
+				692259A91ECBD7950083852A /* TapMeFastTests */,
+				692259B41ECBD7960083852A /* TapMeFastUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		692259941ECBD7950083852A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				692259C91ECBD87E0083852A /* ObelixProB.ttf in Resources */,
+				692259A41ECBD7950083852A /* LaunchScreen.storyboard in Resources */,
+				692259A11ECBD7950083852A /* Assets.xcassets in Resources */,
+				6922599F1ECBD7950083852A /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		692259A81ECBD7950083852A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		692259B31ECBD7960083852A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		692259921ECBD7950083852A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6922599C1ECBD7950083852A /* ViewController.swift in Sources */,
+				6922599A1ECBD7950083852A /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		692259A61ECBD7950083852A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				692259AF1ECBD7950083852A /* TapMeFastTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		692259B11ECBD7960083852A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				692259BA1ECBD7960083852A /* TapMeFastUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		692259AC1ECBD7950083852A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 692259951ECBD7950083852A /* TapMeFast */;
+			targetProxy = 692259AB1ECBD7950083852A /* PBXContainerItemProxy */;
+		};
+		692259B71ECBD7960083852A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 692259951ECBD7950083852A /* TapMeFast */;
+			targetProxy = 692259B61ECBD7960083852A /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		6922599D1ECBD7950083852A /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				6922599E1ECBD7950083852A /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		692259A21ECBD7950083852A /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				692259A31ECBD7950083852A /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		692259BC1ECBD7960083852A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		692259BD1ECBD7960083852A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		692259BF1ECBD7960083852A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 7X9SFG4H67;
+				INFOPLIST_FILE = TapMeFast/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.mgil.TapMeFast;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		692259C01ECBD7960083852A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 7X9SFG4H67;
+				INFOPLIST_FILE = TapMeFast/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.mgil.TapMeFast;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+		692259C21ECBD7960083852A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = 7X9SFG4H67;
+				INFOPLIST_FILE = TapMeFastTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.mgil.TapMeFastTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/TapMeFast.app/TapMeFast";
+			};
+			name = Debug;
+		};
+		692259C31ECBD7960083852A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = 7X9SFG4H67;
+				INFOPLIST_FILE = TapMeFastTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.mgil.TapMeFastTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/TapMeFast.app/TapMeFast";
+			};
+			name = Release;
+		};
+		692259C51ECBD7960083852A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				DEVELOPMENT_TEAM = 7X9SFG4H67;
+				INFOPLIST_FILE = TapMeFastUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.mgil.TapMeFastUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = TapMeFast;
+			};
+			name = Debug;
+		};
+		692259C61ECBD7960083852A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				DEVELOPMENT_TEAM = 7X9SFG4H67;
+				INFOPLIST_FILE = TapMeFastUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.mgil.TapMeFastUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = TapMeFast;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		692259911ECBD7950083852A /* Build configuration list for PBXProject "TapMeFast" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				692259BC1ECBD7960083852A /* Debug */,
+				692259BD1ECBD7960083852A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		692259BE1ECBD7960083852A /* Build configuration list for PBXNativeTarget "TapMeFast" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				692259BF1ECBD7960083852A /* Debug */,
+				692259C01ECBD7960083852A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		692259C11ECBD7960083852A /* Build configuration list for PBXNativeTarget "TapMeFastTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				692259C21ECBD7960083852A /* Debug */,
+				692259C31ECBD7960083852A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		692259C41ECBD7960083852A /* Build configuration list for PBXNativeTarget "TapMeFastUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				692259C51ECBD7960083852A /* Debug */,
+				692259C61ECBD7960083852A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 6922598E1ECBD7950083852A /* Project object */;
+}
